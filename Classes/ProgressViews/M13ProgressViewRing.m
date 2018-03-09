@@ -350,7 +350,7 @@
     _percentageLabel.frame = self.bounds;
     
     //Update font size
-    _percentageLabel.font = [UIFont systemFontOfSize:(self.bounds.size.width / 5)];
+    //_percentageLabel.font = [UIFont systemFontOfSize:(self.bounds.size.width / 5)];
     _percentageLabel.textColor = self.primaryColor;
     
     //Update line widths if not overriden
