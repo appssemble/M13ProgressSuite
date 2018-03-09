@@ -17,8 +17,6 @@
 @interface M13ProgressViewRing ()
 /**The number formatter to display the progress percentage.*/
 @property (nonatomic, retain) NSNumberFormatter *percentageFormatter;
-/**The label that shows the percentage.*/
-@property (nonatomic, retain) UILabel *percentageLabel;
 /**The start progress for the progress animation.*/
 @property (nonatomic, assign) CGFloat animationFromValue;
 /**The end progress for the progress animation.*/

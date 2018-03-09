@@ -24,5 +24,7 @@
 /**@name Percentage*/
 /**Wether or not to display a percentage inside the ring.*/
 @property (nonatomic, assign) BOOL showPercentage;
+/**The label that shows the percentage.*/
+@property (nonatomic, retain) UILabel *percentageLabel;
 
 @end
